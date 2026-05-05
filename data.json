@@ -1,0 +1,48 @@
+{
+
+  "categories": [
+    {
+      "name": "birds",
+      "prototype": {
+        "feathers": 1,
+        "beak": 1,
+        "flight": 1
+      },
+      "features": [
+        { "name": "feathers", "weight": 0.5, "important": true },
+        { "name": "beak", "weight": 0.5, "important": true },
+        { "name": "flight", "weight": 0.3, "important": false }
+      ]
+    },
+    {
+      "name": "furniture",
+      "prototype": {
+        "seat": 1,
+        "wood": 0.6
+      },
+      "features": [
+        { "name": "seat", "weight": 0.6, "important": true },
+        { "name": "wood", "weight": 0.4, "important": false }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "name": "sparrow",
+      "category": "birds",
+      "features": {
+        "feathers": 1,
+        "beak": 1,
+        "flight": 0.8
+      }
+    },
+    {
+      "name": "chair",
+      "category": "furniture",
+      "features": {
+        "seat": 1,
+        "wood": 0.7
+      }
+    }
+  ]
+}
