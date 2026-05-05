@@ -10,7 +10,6 @@ void Category::addFeature(const Feature& f) {
     features.push_back(f);
 }
 
-// تصحيح: إضافة مسافة بين const و string وإضافة &
 void Category::addPrototypeValue(const string& featureName, double value) {
     prototype[featureName] = value;
 }
